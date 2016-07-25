@@ -15,6 +15,7 @@
 		5282DE721D45E9A000C86B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282DE701D45E9A000C86B85 /* LaunchScreen.storyboard */; };
 		5282DE7E1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282DE7B1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m */; };
 		5282DE7F1D45E9C700C86B85 /* ZPHomeMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282DE7D1D45E9C700C86B85 /* ZPHomeMenuView.m */; };
+		5282DE811D45F40000C86B85 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5282DE801D45F40000C86B85 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5282DE7B1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHomeMenuBtnFrame.m; sourceTree = "<group>"; };
 		5282DE7C1D45E9C700C86B85 /* ZPHomeMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHomeMenuView.h; sourceTree = "<group>"; };
 		5282DE7D1D45E9C700C86B85 /* ZPHomeMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHomeMenuView.m; sourceTree = "<group>"; };
+		5282DE801D45F40000C86B85 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		5282DE621D45E9A000C86B85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5282DE801D45F40000C86B85 /* demo.gif */,
 				5282DE631D45E9A000C86B85 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5282DE721D45E9A000C86B85 /* LaunchScreen.storyboard in Resources */,
+				5282DE811D45F40000C86B85 /* demo.gif in Resources */,
 				5282DE6F1D45E9A000C86B85 /* Assets.xcassets in Resources */,
 				5282DE6D1D45E9A000C86B85 /* Main.storyboard in Resources */,
 			);
@@ -320,6 +324,7 @@
 				5282DE781D45E9A000C86B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
