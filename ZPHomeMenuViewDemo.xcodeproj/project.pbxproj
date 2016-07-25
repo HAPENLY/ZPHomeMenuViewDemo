@@ -13,6 +13,8 @@
 		5282DE6D1D45E9A000C86B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282DE6B1D45E9A000C86B85 /* Main.storyboard */; };
 		5282DE6F1D45E9A000C86B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5282DE6E1D45E9A000C86B85 /* Assets.xcassets */; };
 		5282DE721D45E9A000C86B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5282DE701D45E9A000C86B85 /* LaunchScreen.storyboard */; };
+		5282DE7E1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282DE7B1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m */; };
+		5282DE7F1D45E9C700C86B85 /* ZPHomeMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5282DE7D1D45E9C700C86B85 /* ZPHomeMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		5282DE6E1D45E9A000C86B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5282DE711D45E9A000C86B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5282DE731D45E9A000C86B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5282DE7A1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHomeMenuBtnFrame.h; sourceTree = "<group>"; };
+		5282DE7B1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHomeMenuBtnFrame.m; sourceTree = "<group>"; };
+		5282DE7C1D45E9C700C86B85 /* ZPHomeMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPHomeMenuView.h; sourceTree = "<group>"; };
+		5282DE7D1D45E9C700C86B85 /* ZPHomeMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPHomeMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		5282DE611D45E9A000C86B85 /* ZPHomeMenuViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5282DE791D45E9C700C86B85 /* HomeMenuView */,
 				5282DE651D45E9A000C86B85 /* AppDelegate.h */,
 				5282DE661D45E9A000C86B85 /* AppDelegate.m */,
 				5282DE681D45E9A000C86B85 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				5282DE631D45E9A000C86B85 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5282DE791D45E9C700C86B85 /* HomeMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				5282DE7A1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.h */,
+				5282DE7B1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m */,
+				5282DE7C1D45E9C700C86B85 /* ZPHomeMenuView.h */,
+				5282DE7D1D45E9C700C86B85 /* ZPHomeMenuView.m */,
+			);
+			path = HomeMenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5282DE6A1D45E9A000C86B85 /* ViewController.m in Sources */,
+				5282DE7F1D45E9C700C86B85 /* ZPHomeMenuView.m in Sources */,
 				5282DE671D45E9A000C86B85 /* AppDelegate.m in Sources */,
+				5282DE7E1D45E9C700C86B85 /* ZPHomeMenuBtnFrame.m in Sources */,
 				5282DE641D45E9A000C86B85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
