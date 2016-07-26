@@ -40,6 +40,12 @@
         [scrollView addSubview:_backView1];
         [scrollView addSubview:_backView2];
         [self addSubview:scrollView];
+        _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(ZPUI_SCREEN_WIDTH/4-80, 160, 0, 20)];
+        _pageControl.currentPage = 0;
+        _pageControl.numberOfPages = 2;
+        [self addSubview:_pageControl];
+        [_pageControl setCurrentPageIndicatorTintColor:[UIColor colorWithRed:0.9328 green:0.873 blue:0.4881 alpha:1.0]];
+        [_pageControl setPageIndicatorTintColor:[UIColor grayColor]];
             //创建20个
             for (int i = 0; i < 20; i++) {
                 if (i < BtnNum) {
@@ -80,12 +86,7 @@
                     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(OnTapBtnView:)];
                     [btnView addGestureRecognizer:tap];
                 }
-            _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(ZPUI_SCREEN_WIDTH/4-80, 160, 0, 20)];
-            _pageControl.currentPage = 0;
-            _pageControl.numberOfPages = 2;
-            [self addSubview:_pageControl];
-            [_pageControl setCurrentPageIndicatorTintColor:[UIColor colorWithRed:0.9328 green:0.873 blue:0.4881 alpha:1.0]];
-            [_pageControl setPageIndicatorTintColor:[UIColor grayColor]];
+            
         }
     }
     return self;
